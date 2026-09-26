@@ -51,12 +51,25 @@ Projede rapor performansını optimize etmek ve esnek filtreleme sağlamak amac�
 
 ---
 
-## 💡 Öne Çıkan Analitik Bulgular
+## 💡 Öne Çıkan Analitik Bulgular & İş Stratejileri
 
-1. **Gelir Kaybı Riski:** Churn olan müşterilerin toplam ciro üzerindeki etkisi $20M+ seviyesindedir.
-2. **Kullanım Anomalileri:** Düşük veri ve arama kullanımına sahip müşterilerde ayrılma eğilimi daha yüksek seyretmektedir.
-3. **Bölgesel Odak:** Jharkhand ve yüksek nüfuslu metropollerde churn oranı ortalamanın üzerindedir.
+### 1. Finansal Etki & Ciro Riski (Financial Impact)
+* **Yüksek Kayıp Hacmi:** İncelenen dönemde **48,827 müşteri** kaybedilmiş olup, toplam churn oranı **%20.37** seviyesindedir.
+* **Maddi Kayıp:** Kaybedilen müşterilerden kaynaklanan toplam ciro kaybı **$20.70M+** olarak hesaplanmıştır. 
+* **Gelir Başına Risk:** Yüksek aylık ödeme yapan üst segment müşterilerin churn oranı standart paket kullanıcılardan daha yüksek bulunmuştur.
 
+### 2. Müşteri Davranışları & Kullanım Eğilimleri (Behavioral Anomalies)
+* **Kullanım Düşüşü (Early Warning):** Churn eden müşterilerin ayrılmadan önceki ortalama veri (data) kullanımı **4.89 GB** seviyesine düşmektedir. Düşük veri kullanımı ayrılma riski için en güçlü öncül göstergedir (Leading Indicator).
+* **Servis Bağlılığı (SMS & Calls):** Arama sayısı ortalama **49 çağrı** bandında sabit kalırken, SMS kullanımı ortalama **24.09** seviyesindedir. Dijital kanalları aktif kullanmayan müşterilerde bağlılık daha düşüktür.
+
+### 3. Demografik & Coğrafi Risk Alanları (Demographic & Spatial Risks)
+* **Kritik Eyaletler:** Churn oranının en yüksek olduğu eyalet **Jharkhand** olarak öne çıkmaktadır. Ayrıca **Hyderabad, Kolkata ve Bangalore** en fazla müşteri kaybedilen ilk 3 metropoldür.
+* **Demografik Profil:** Yaş ortalaması **46.08** olan ve ortalama **2.00 bağımlı bireye (Dependents)** sahip aile segmentindeki müşterilerin churn oranı, genç/tekil kullanıcılara kıyasla daha yüksektir.
+
+### 🎯 Stratejik Aksiyon Önerileri (Business Recommendations)
+1. **Erken Uyarı Sistemi (Proactive Retention):** İnternet kullanımı 5 GB altına düşen müşterilere otomatik kampanya/indirim teklifleri tanımlanmalıdır.
+2. **Bölgesel Müdahale:** Jharkhand ve Bangalore bölgelerindeki altyapı/rakip faaliyetleri incelenerek bu illere özel elde tutma paketleri sunulmalıdır.
+3. **Aile Paketleri:** Bağımlı sayısı fazla olan 40+ yaş grubu için sadakat programları geliştirilmelidir.
 ---
 
 ## 🚀 Projeyi Yerel Ortamda Çalıştırma
@@ -64,3 +77,6 @@ Projede rapor performansını optimize etmek ve esnek filtreleme sağlamak amac�
 1. Repoyu bilgisayarınıza klonlayın:
    ```bash
    git clone [https://github.com/KULLANICI_ADINIZ/Telecom-Customer-Churn-Analysis.git](https://github.com/KULLANICI_ADINIZ/Telecom-Customer-Churn-Analysis.git)
+
+## 📬 İletişim
+Bu proje ile ilgili sorularınız veya önerileriniz için benimle [LinkedIn profilim](https://www.linkedin.com/in/deniz-bal-64838b225) üzerinden iletişime geçebilirsiniz.
