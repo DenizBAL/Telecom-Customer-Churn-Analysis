@@ -11,21 +11,21 @@ Projede veri temizleme aşamasından başlayıp **MSSQL** üzerinde **Star Schem
 ### 1. Yönetici Özeti (Executive Overview)
 Genel müşteri sayısı, churn oranı, kaybedilen toplam gelir (Lost Revenue) ve zaman içindeki churn trendlerinin analiz edildiği ana ekran.
 
-![Executive Overview](assets/exe.png)
+![Executive Overview](Assets/exe.png)
 
 ---
 
 ### 2. Müşteri Davranışı ve Kullanım Analizi (Customer Behavioral Analysis)
 Ayrılan ve devam eden müşterilerin ortalama arama süresi, internet kullanımı (GB) ve SMS alışkanlıklarının karşılaştırıldığı detaylı ekran.
 
-![Customer Behavior](assets/custom.png)
+![Customer Behavior](Assets/custom.png)
 
 ---
 
 ### 3. Coğrafi ve Demografik Analiz (Geographic & Demographic Analysis)
 En yüksek churn oranına sahip eyaletlerin harita üzerinde gösterimi, yaş ve bağımlı sayısı dağılımları ile en riskli şehirlerin analiz edildiği bölüm.
 
-![Geographic Analysis](assets/geo.png)
+![Geographic Analysis](Assets/geo.png)
 
 ---
 
